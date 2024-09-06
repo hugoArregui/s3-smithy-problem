@@ -1,0 +1,40 @@
+{
+  "name": "@well-known-components/base-component",
+  "version": "1.0.0",
+  "description": "base component",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "jest --forceExit --detectOpenHandles --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/well-known-components/base-component.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/well-known-components/base-component/issues"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "tabWidth": 2
+  },
+  "homepage": "https://github.com/well-known-components/base-component#readme",
+  "devDependencies": {
+    "@microsoft/api-extractor": "^7.42.3",
+    "@well-known-components/test-helpers": "^1.5.6",
+    "typescript": "^5.4.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.645.0"
+  }
+}
